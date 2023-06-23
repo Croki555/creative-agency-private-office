@@ -1,0 +1,122 @@
+/* ================== 1440 ================== */
+@media (max-width: 1440px) {
+    .main__block-right {
+        display: none;
+    }
+
+    .main__container {
+        grid-template-columns: unset;
+    }
+}
+/* ================== end 1440 ================== */
+
+/* ================== 1024 ================== */
+@media (max-width: 1024px) {
+    .aside {
+        display: none;
+    }
+
+    .burger {
+        display: inline-grid;
+    }
+
+}
+/* ================== end 1024 ================== */
+
+/* ================== 768 ================== */
+@media (min-width: 768px) {
+    .burger-list {
+        gap: 60px;
+    }
+
+    .burger-list a {
+        font-size: 40px;
+    }
+}
+/* ================== end 768 ================== */
+
+/* ================== 880 ================== */
+@media (max-width: 880px) {
+    .title-2 {
+        font-size: 32px;
+    }
+
+    .main__container {
+        padding-top: 30px;
+    }
+
+    .main__block-left {
+        gap: 30px;
+    }
+
+    .main__list {
+        gap: 10px;
+    }
+
+    .table__head-line div:first-child,
+    .table__head-line div:nth-child(2),
+    .table__body-line div:first-child,
+    .table__body-line div:nth-child(2){
+        display: none!important;
+    }
+
+    .table-sort {
+        display: none;
+    }
+
+    .table__head-line, .table__body-line {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+    .table__head-line div,
+    .table__body-line div {
+        padding: 10px;
+    }
+}
+/* ================== end 880 ================== */
+
+/* ================== 640 ================== */
+@media(max-width: 640px) {
+    .table-sort2 {
+        grid-template-columns:unset;
+    }
+
+    .table-sort2 div:first-child {
+        display: none;
+    }
+
+    .table-sort2 div:last-child {
+        margin: 0 auto;
+    }
+
+    .table__head-line div:last-child,
+    .table__body-line div:last-child {
+        display: none;
+    }
+}
+/* ================== end 640 ================== */
+
+/* ================== 480 ================== */
+@media (max-width: 480px) {
+    .table__head-line,
+    .table__body-line {
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    }
+
+    .table__head-line div, .table__body-line div {
+        padding: 5px 0;
+    }
+
+    .title-2 {
+        font-size: 22px;
+    }
+
+    .main__menu {
+        display: block;
+    }
+
+    .table__head-line,
+    .main__list {
+        display: none;
+    }
+}
+/* ================== end 480 ================== */
